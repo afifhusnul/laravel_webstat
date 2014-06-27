@@ -1,0 +1,37 @@
+/* Main Stylesheet */
+/* Import Bootstrap styles and Responsive styles */
+@import url('bootstrap.css');
+@import url('bootstrap-theme.css');
+@import url('datepicker.css');
+@import url('messenger.css');
+@import url('future.css');
+@import url('jquery-ui.css');
+@import url('DT_Bootstrap.css');
+
+header, nav, section, article, aside, footer {
+   display:block;
+}
+
+body {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-family: Tahoma;
+  font-size: 12px;
+}
+
+/*
+-- Flot css
+*/
+.legendLabel
+{
+    color:White;
+}
+
+/*Remove top padding when top navbar goes static in narrow viewports 
+@media (max-width: 1000px) {
+  body {
+   -moz-box-sizing: border-box;
+    padding-top: 0;
+  }
+}
+ */
